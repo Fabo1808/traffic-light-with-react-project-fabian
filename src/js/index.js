@@ -2,6 +2,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import { TrafficLights } from "./component/TrafficLights.jsx";
 //include bootstrap npm library into the bundle
 import "bootstrap";
 
@@ -9,7 +10,6 @@ import "bootstrap";
 import "../styles/index.scss";
 
 //import your own components
-import Home from "./component/home.jsx";
-
+import { Home } from "./component/Home.jsx";
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<TrafficLights />, document.querySelector("#app"));

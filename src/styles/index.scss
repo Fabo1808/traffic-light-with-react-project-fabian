@@ -1,13 +1,53 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.all{
+    width: 100%;
+    height: 100vh;
+}
+.padreposte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.poste{
+    width: 45px;
+    height: 200px;
+    background-color: black;
+}
+#trafficlights{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.red {
+    background-color: red;
 
-    You can write your own styles here...
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.lamp{
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+   
+}
+#container{
 
-*/
+    width: 250px;
+    height: 400px;
+    position: relative;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.sombra{
+    box-shadow: 0 0 50px white;
+    
+}
